@@ -14,6 +14,7 @@ export default function AddTodo() {
     if (localStorage.getItem("todos") === "null" && todos?.length === 0) {
       localStorage.setItem("todos", "[]");
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {

@@ -12,7 +12,6 @@ export default function Todos() {
           todoId={id}
           title={title}
           completed={completed}
-          
         />
       ))}
     </div>
