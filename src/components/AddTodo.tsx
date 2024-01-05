@@ -54,6 +54,7 @@ export default function AddTodo() {
             ref={inputValue}
             className="w-[350px] h-[35px] bg-[#283447] border border-[#353F4F] rounded-sm text-white indent-3 "
             type="text"
+            placeholder="Write a new TO-DO"
           />
           <div
             className="text-[45px] text-white duration-200 hover:text-[#70BBE2] cursor-pointer "
